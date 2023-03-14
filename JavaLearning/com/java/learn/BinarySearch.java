@@ -1,8 +1,13 @@
 package JavaLearning.com.java.learn;
 
-import jdk.incubator.vector.VectorOperators;
 
 public class BinarySearch {
+    /**
+     * this method is used for binary search
+     * @param array
+     * @param element
+     * @return
+     */
     public int binarySearch(int array[], int element) {
         int mid = 0;
         int left = 0;
